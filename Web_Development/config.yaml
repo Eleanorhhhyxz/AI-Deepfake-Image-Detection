@@ -1,0 +1,32 @@
+Image_Classification_Models:
+  Regnet-Fine-Tuned:
+    Model_Type: HDF5
+    File_Name: regnet.h5
+    Image_Width: 299
+    Image_Height: 299
+    Normalize: False
+  Xception-Fine-Tuned:
+    Model_Type: HDF5
+    File_Name: xception.h5
+    Image_Width: 299
+    Image_Height: 299
+    Normalize: True
+  ViT-Hybrid-Fine-Tuned:
+    Model_Type: Torch
+    Base_Model: "vit_base_r50_s16_224"
+    File_Name: vit_hybrid.pth
+    Image_Width: 224
+    Image_Height: 224
+    Normalize: True
+  Dual-Input-NN:
+    Model_Type: Custom
+    File_Name: dual_branch.h5
+    Image_Width: 128
+    Image_Height: 128
+    Normalize: True
+  ViT-Base-Fine-Tuned:
+    Model_Type: Hugging Face
+    File_Name: vit_base
+    Image_Width: 224
+    Image_Height: 224
+    Normalize: False
