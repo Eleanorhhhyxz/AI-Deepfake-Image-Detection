@@ -1,1 +1,1 @@
-# AI-Deepfake-Image-Detection-and-Style-Transfer
+# AI-Deepfake-Image-Detection
